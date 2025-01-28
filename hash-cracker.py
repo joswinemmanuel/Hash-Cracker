@@ -41,7 +41,7 @@ def main():
                 print(f"\nHash Found: [ {calculated_hash} ] for word: [ {word} ]\n")
                 exit(0)
 
-    print("\n\tHash not found, change wordlist.\n")
+    print("\n\tHash not found so change wordlist.\n")
 
 if __name__ == "__main__":
     main()
