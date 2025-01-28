@@ -1,5 +1,5 @@
 def generate_wordlist():
-    base_words = ["password", "123456", "letmein", "welcome", "qwerty", "admin", "abc123", "sunshine", "iloveyou", "password1"]
+    base_words = ["password", "password123", "123456", "letmein", "welcome", "qwerty", "admin", "abc123", "sunshine", "iloveyou", "password1"]
     
     wordlist = set(base_words)
 

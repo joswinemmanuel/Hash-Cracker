@@ -14,6 +14,7 @@ usage = '''
 # Example:
     python hash-code.py --password password123 --hashtype md5
 '''
+# sha224, sha256, sha1, sha512, shake_128, blake2s, blake2b, sha3_256, sha384, sha3_384, shake_256, md5, sha3_224, sha3_512
 optHandler = OptionParser(usage)
 
 optHandler.add_option("--password", dest="password", type="string", help="Password to be hashed")
